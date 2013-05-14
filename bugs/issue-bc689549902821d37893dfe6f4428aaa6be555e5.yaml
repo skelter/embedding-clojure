@@ -1,0 +1,18 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Basic files
+desc: We recommend every repository include a README, LICENSE, and .gitignore.
+type: :task
+component: embedding-clojure
+release: 
+reporter: Charles Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2013-05-14 01:39:15.852012 Z
+references: []
+
+id: bc689549902821d37893dfe6f4428aaa6be555e5
+log_events: 
+- - 2013-05-14 01:39:20.243690 Z
+  - Charles Suehs <skelter@skelter.net>
+  - created
+  - ""
