@@ -33,6 +33,11 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+	List list = new ArrayList();
+	list.add("Hello");
+	list.add("World");
+        List result = App.transformObjectsWithAService(list);
+        assertFalse(result.isEmpty() );
+	assertEquals( 2, result.size());
     }
 }

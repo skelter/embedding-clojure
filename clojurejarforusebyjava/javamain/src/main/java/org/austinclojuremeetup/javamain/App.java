@@ -13,12 +13,15 @@ public class App
 {
     public static void main( String[] args )
     {
-	List<Object> objects = makeSomeObjects();
-	TradService service = Factory.createService();
-	List<String> lines = service.convert(objects);
+	List<String> lines = transformListWithAService(makeSomeObjects());
 	for(String line : lines) {
 	    System.out.println("\t" + line);
 	}
+    }
+
+    List<String> transFormListWithAService(List<Object> objects) {
+	TradService service = Factory.createService();
+	return service.convert(objects);
     }
 
     private static List<Object> makeSomeObjects() {
