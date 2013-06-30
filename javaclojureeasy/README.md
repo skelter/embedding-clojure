@@ -5,6 +5,8 @@ Fire up the Clojure runtime,
 get hold of a var of a function and
 invoke it, get a result back, and actually use it.
 
+See [code](src/Foo.java)
+
 
 
 Reference Links
