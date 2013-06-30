@@ -1,0 +1,2 @@
+javac -cp ~/.m2/repository/org/clojure/clojure/1.5.1/clojure-1.5.1.jar Foo.java
+java -cp ~/.m2/repository/org/clojure/clojure/1.5.1/clojure-1.5.1.jar:. Foo
