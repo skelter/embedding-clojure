@@ -1,4 +1,5 @@
-(ns wayofpain.core)
+(ns wayofpain.core
+  (:gen-class))
 
 (defn foo
   "I don't do a whole lot."
