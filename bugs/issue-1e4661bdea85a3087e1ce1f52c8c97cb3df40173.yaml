@@ -8,7 +8,7 @@ type: :task
 component: embedding-clojure
 release: 
 reporter: Charles Suehs <skelter@skelter.net>
-status: :unstarted
+status: :in_progress
 disposition: 
 creation_time: 2013-06-30 12:46:32.713181 Z
 references: []
@@ -25,3 +25,7 @@ log_events:
   - |-
     Here's the Oracle link for scripting under JSR-223
     http://docs.oracle.com/javase/6/docs/technotes/guides/scripting/
+- - 2013-06-30 22:38:14.535197 Z
+  - CS Suehs <skelter@skelter.net>
+  - changed status from unstarted to in_progress
+  - ""
