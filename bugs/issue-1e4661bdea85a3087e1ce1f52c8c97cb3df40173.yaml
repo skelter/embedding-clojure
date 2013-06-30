@@ -19,3 +19,9 @@ log_events:
   - Charles Suehs <skelter@skelter.net>
   - created
   - ""
+- - 2013-06-30 21:47:06.276327 Z
+  - CS Suehs <skelter@skelter.net>
+  - commented
+  - |-
+    Here's the Oracle link for scripting under JSR-223
+    http://docs.oracle.com/javase/6/docs/technotes/guides/scripting/
