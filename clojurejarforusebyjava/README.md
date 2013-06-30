@@ -1,16 +1,13 @@
-Writing a Jar for Use by Java
-==============================
-Also known as 'the hard way'.
+# wayofpain
 
-In this example, we will use Clojure to fulfill an API 
-specified by a Java interface.  This is not the best case
-of where Clojure will shine as we are going to conform to Java's 
-API traditions.
+A Clojure library designed to ... well, that part is up to you.
 
-We will use the gen-class attributes of a namespace to direct 
-the Clojure compiler to generate a Java class for the name space,
-and give it directions on some methods.  We will also tell Leiningen
-to do some ahead-of-time compiling.
+## Usage
 
-If you are doing this, you are probably doing it under duress 
-to take advantage of the Clojure language at a Java day job.
+FIXME
+
+## License
+
+Copyright © 2013 FIXME
+
+Distributed under the Eclipse Public License, the same as Clojure.
