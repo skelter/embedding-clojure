@@ -3,6 +3,8 @@ package org.austinclojuremeetup.javamain;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Unit test for simple App.
@@ -36,7 +38,7 @@ public class AppTest
 	List list = new ArrayList();
 	list.add("Hello");
 	list.add("World");
-        List result = App.transformObjectsWithAService(list);
+        List result = App.transformWithAService(list);
         assertFalse(result.isEmpty() );
 	assertEquals( 2, result.size());
     }
