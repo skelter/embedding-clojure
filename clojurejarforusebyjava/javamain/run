@@ -1,0 +1,11 @@
+APIJAR=~/.m2/repository/org/austinclojuremeetup/api/clojureimpl/0.1.0-SNAPSHOT/clojureimpl-0.1.0-SNAPSHOT.jar
+ls -lh $APIJAR
+IMPLJAR=~/.m2/repository/org/austinclojuremeetup/traditionalapi/1.0-SNAPSHOT/traditionalapi-1.0-SNAPSHOT.jar
+ls -lh $IMPLJAR
+MAINJAR=target/javamain-1.0-SNAPSHOT.jar
+ls -lh $MAINJAR
+CLOJUREJAR=~/.m2/repository/org/clojure/clojure/1.5.1/clojure-1.5.1.jar
+ls -lh $CLOJUREJAR
+OURCLASSPATH=$APIJAR:$IMPLJAR:$MAINJAR:$CLOJUREJAR
+
+java -cp $OURCLASSPATH org.austinclojuremeetup.javamain.App
