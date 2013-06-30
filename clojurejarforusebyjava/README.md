@@ -14,3 +14,12 @@ to do some ahead-of-time compiling.
 
 If you are doing this, you are probably doing it under duress 
 to take advantage of the Clojure language at a Java day job.
+
+
+Contents
+---------
+
+* traditionalapi - A simple jar containing the interface.
+  This defines the contract we will try to fulfill.
+* javamain - client code that will call the service.
+* wayofpain - Clojure implementation of the API service.
