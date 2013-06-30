@@ -5,8 +5,8 @@ type: :task
 component: embedding-clojure
 release: 
 reporter: Charles Suehs <skelter@skelter.net>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2013-05-14 01:39:15.852012 Z
 references: []
 
@@ -16,3 +16,7 @@ log_events:
   - Charles Suehs <skelter@skelter.net>
   - created
   - ""
+- - 2013-06-30 15:33:13.591415 Z
+  - CS Suehs <skelter@skelter.net>
+  - closed with disposition fixed
+  - up and running, and 2 examples implemented.
