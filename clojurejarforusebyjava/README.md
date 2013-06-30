@@ -13,7 +13,9 @@ and give it directions on some methods.  We will also tell Leiningen
 to do some ahead-of-time compiling.
 
 If you are doing this, you are probably doing it under duress 
-to take advantage of the Clojure language at a Java day job.
+to take advantage of the Clojure language at a Java day job AND
+you are being hard-headed about certain pragmatic steps, like
+including a .java glue file to make your life easier.
 
 
 Contents
