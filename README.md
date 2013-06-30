@@ -13,6 +13,7 @@ Contents
 * [Using Clojure to make a library jar for use in Java](./clojurejarforusebyjava)
 * Clojure-Powered annotations
 * Clojure as a JSR-233 scripting language
+* Clojure REPL
 * Clojure streamed down the wire
 * Scala calling Clojure
 * Clojure in a PostgreSQL database
