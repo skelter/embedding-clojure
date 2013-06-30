@@ -9,13 +9,13 @@ so I better get the examples ready to go.
 
 Contents
 ------------
-* [Calling Clojure As Suggested](./javaclojureeasy)
-* [Using Clojure to make a Library Jar](./clojurejarforusebyjava)
-* Clojure-Powered Annotations
-* Clojure as a JSR-233 Scripting Language
-* Clojure Streamed the Wire
-* Scala Calling Clojure
-* Clojure in Postgresql
+* [Calling Clojure as suggested](./javaclojureeasy)
+* [Using Clojure to make a library jar for use in Java](./clojurejarforusebyjava)
+* Clojure-Powered annotations
+* Clojure as a JSR-233 scripting language
+* Clojure streamed down the wire
+* Scala calling Clojure
+* Clojure in a PostgreSQL database
 
 Links & References
 -------------------
