@@ -1,0 +1,21 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Clojure in a PostgreSQL database
+desc: |-
+  Let's see if we can use Clojure with the Java mechanism in Postgresl.
+  Here are some slides around shipping jars up to Postgres and using them.
+  http://www.slideshare.net/petereisentraut/postgresql-and-pljava
+type: :task
+component: embedding-clojure
+release: 
+reporter: CS Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2013-06-30 15:48:38.990093 Z
+references: []
+
+id: 97b12716c4a50222a3d751ba67d1ced505585840
+log_events: 
+- - 2013-06-30 15:48:43.691767 Z
+  - CS Suehs <skelter@skelter.net>
+  - created
+  - ""

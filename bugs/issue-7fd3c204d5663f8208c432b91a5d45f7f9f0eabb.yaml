@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Scala calling Clojure
+desc: Demo how to call Clojure from Scala.
+type: :task
+component: embedding-clojure
+release: 
+reporter: CS Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2013-06-30 15:35:21.263215 Z
+references: []
+
+id: 7fd3c204d5663f8208c432b91a5d45f7f9f0eabb
+log_events: 
+- - 2013-06-30 15:36:24.499218 Z
+  - CS Suehs <skelter@skelter.net>
+  - created
+  - |-
+    The man who requested this one said that their consultant ran into
+    problems with Scala's classloader intefering with Clojure.
