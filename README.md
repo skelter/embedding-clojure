@@ -15,5 +15,6 @@ Links
 
 * Calling Clojure from Scala
   http://stackoverflow.com/questions/2181774/calling-clojure-from-java
+  
 * Clojure embedded in a database server
 
