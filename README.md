@@ -8,7 +8,7 @@ It looks like we'll be doing this on July 8, 2013, so I better get the examples 
 Contents
 ------------
 * [Calling Clojure As Suggested](./javaclojureeasy)
-* Using Clojure to make a Library Jar
+* [Using Clojure to make a Library Jar](./clojurejarforusebyjava)
 * Clojure-Powered Annotations
 * Clojure as a JSR-233 Scripting Language
 * Clojure Streamed the Wire
