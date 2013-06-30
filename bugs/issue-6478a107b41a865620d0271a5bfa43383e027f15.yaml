@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Demo an easier alternative to the way of pain.
+desc: |-
+  So, we show the way of pain.  Give an example of how we can do something
+  similar but with less pain and esoteric genclass.
+type: :task
+component: embedding-clojure
+release: 
+reporter: CS Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2013-06-30 22:34:37.949174 Z
+references: []
+
+id: 6478a107b41a865620d0271a5bfa43383e027f15
+log_events: 
+- - 2013-06-30 22:34:39.717007 Z
+  - CS Suehs <skelter@skelter.net>
+  - created
+  - ""
