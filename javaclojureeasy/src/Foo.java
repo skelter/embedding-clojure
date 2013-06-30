@@ -2,6 +2,7 @@ import clojure.lang.RT;
 import clojure.lang.Var;
 import clojure.lang.LazySeq;
 
+//Largely inspired by http://java.dzone.com/articles/java-clojure-interop
 public class Foo {
     public static void main(String[] args) throws Exception {
 	// Load the Clojure script 
