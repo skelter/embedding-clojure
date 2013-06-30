@@ -1,0 +1,18 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: A Repl in a GUI
+desc: Can I have a REPL in my swing app?
+type: :task
+component: embedding-clojure
+release: 
+reporter: CS Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2013-06-30 12:50:36.200437 Z
+references: []
+
+id: 619012bc913956dbbc0356b9609fa23e7ec67468
+log_events: 
+- - 2013-06-30 12:50:37.688610 Z
+  - CS Suehs <skelter@skelter.net>
+  - created
+  - ""

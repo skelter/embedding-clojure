@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Clojure REPL
+desc: |-
+  Show what it takes to build a REPL into an app.
+  kind of too easy if we do it from Leiningen, so let's try it from java.
+type: :task
+component: embedding-clojure
+release: 
+reporter: CS Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2013-06-30 12:49:33.548916 Z
+references: []
+
+id: 593a0d1a6317ef3beeee01d4eb2fd99e2a0860b7
+log_events: 
+- - 2013-06-30 12:49:37.900508 Z
+  - CS Suehs <skelter@skelter.net>
+  - created
+  - ""

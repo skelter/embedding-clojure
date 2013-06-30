@@ -1,0 +1,21 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Using clojure as a JSR-233 scripting language
+desc: |-
+  Demo using Clojure as a JSR-233 scripting language.
+  Cover a little bit about JSR-233.
+  Helper objects
+type: :task
+component: embedding-clojure
+release: 
+reporter: Charles Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2013-06-30 12:46:32.713181 Z
+references: []
+
+id: 1e4661bdea85a3087e1ce1f52c8c97cb3df40173
+log_events: 
+- - 2013-06-30 12:46:46.375946 Z
+  - Charles Suehs <skelter@skelter.net>
+  - created
+  - ""

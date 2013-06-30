@@ -1,0 +1,21 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Clojure streamed down the wire.
+desc: |-
+  Demo reading some clojure code not yet evaled but parsed into data structures,
+  stream it over a network connection, manipulate it, evaluate it and 
+  send result back over the wire.
+type: :task
+component: embedding-clojure
+release: 
+reporter: CS Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2013-06-30 12:58:46.760469 Z
+references: []
+
+id: c525a10abd040a994b4b588a98968d71b5975bae
+log_events: 
+- - 2013-06-30 12:58:48.272246 Z
+  - CS Suehs <skelter@skelter.net>
+  - created
+  - ""

@@ -1,0 +1,21 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Repl in a web app
+desc: |-
+  quick little web app with a repl in it, stream clojure code up, run it, return result back
+  This would probably be pretty involved.
+  Might could use some of the new async stuff.
+type: :task
+component: embedding-clojure
+release: 
+reporter: CS Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2013-06-30 12:55:26.477769 Z
+references: []
+
+id: f7d5c3126b1b8a68edb4c8a8794f0c174358e9e6
+log_events: 
+- - 2013-06-30 12:55:32.614032 Z
+  - CS Suehs <skelter@skelter.net>
+  - created
+  - ""

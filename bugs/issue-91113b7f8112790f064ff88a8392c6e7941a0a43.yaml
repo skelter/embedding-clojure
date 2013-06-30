@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Clojure-POwered annotations
+desc: |-
+  Follow the example for creating a validation annotation with the rules in clojure.
+  http://skife.org/2009/07/05/embedding_clojure.html
+type: :task
+component: embedding-clojure
+release: 
+reporter: Charles Suehs <skelter@skelter.net>
+status: :unstarted
+disposition: 
+creation_time: 2013-06-30 12:44:12.810008 Z
+references: []
+
+id: 91113b7f8112790f064ff88a8392c6e7941a0a43
+log_events: 
+- - 2013-06-30 12:44:16.730060 Z
+  - Charles Suehs <skelter@skelter.net>
+  - created
+  - ""
