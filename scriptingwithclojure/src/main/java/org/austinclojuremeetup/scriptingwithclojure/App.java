@@ -2,7 +2,7 @@ package org.austinclojuremeetup.scriptingwithclojure;
 
 import java.util.*;
 import javax.script.*;
-
+import java.io.FileReader;
 /**
  * Hello world!
  *
@@ -16,10 +16,11 @@ public class App
 	    runScript(args);
 	}
     }
+	
+    static ScriptEngineManager mgr = new ScriptEngineManager();
 
     private static void showEngines() {
 	// from http://stackoverflow.com/questions/11838369/where-can-i-find-a-list-of-available-jsr-223-scripting-languages
-	ScriptEngineManager mgr = new ScriptEngineManager();
         List<ScriptEngineFactory> factories = mgr.getEngineFactories();
 
         for (ScriptEngineFactory factory : factories) {
@@ -44,6 +45,29 @@ public class App
     }
 
     private static void runScript(String[] args) {
-	//TODO
+	String filename = args[0];
+	String extension = extension(filename);
+	ScriptEngine engine = mgr.getEngineByExtension(extension);
+	engine.put("namesList",createSomeNamesList());
+	try {
+	    engine.eval(new FileReader(filename));
+	} catch (Exception ex) {
+	    ex.printStackTrace();
+	}
+    }
+
+    private static String extension(String filename) {
+	int index = filename.lastIndexOf(".") + 1;
+	String extension =  filename.substring(index);
+	return extension;
+    }
+
+    private static List<String> createSomeNamesList() {
+	List<String> namesList = new ArrayList<String>();
+	namesList.add("Sam");
+	namesList.add("Norm");
+	namesList.add("Jill");
+	namesList.add("Steve");
+	return namesList;
     }
 }
