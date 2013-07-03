@@ -11,11 +11,11 @@ Contents
 ------------
 * [Calling Clojure as suggested](./javaclojureeasy)
 * [Using Clojure to make a library jar for use in Java](./clojurejarforusebyjava)
+* [Clojure as a JSR-233 scripting language](./scriptingwithclojure)
 
 Planned Examples
 -----------------
 * Clojure-Powered annotations
-* Clojure as a JSR-233 scripting language
 * Clojure REPL
 * Clojure streamed down the wire
 * Scala calling Clojure
