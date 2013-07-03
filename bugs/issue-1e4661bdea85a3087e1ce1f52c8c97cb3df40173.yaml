@@ -8,8 +8,8 @@ type: :task
 component: embedding-clojure
 release: 
 reporter: Charles Suehs <skelter@skelter.net>
-status: :in_progress
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2013-06-30 12:46:32.713181 Z
 references: []
 
@@ -29,3 +29,7 @@ log_events:
   - CS Suehs <skelter@skelter.net>
   - changed status from unstarted to in_progress
   - ""
+- - 2013-07-03 06:08:28.427877 Z
+  - CS Suehs <skelter@skelter.net>
+  - closed with disposition fixed
+  - prego!
