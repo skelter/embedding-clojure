@@ -1,0 +1,3 @@
+[submodule "machines/manifests/puppetlabs-postgresql"]
+	path = machines/manifests/puppetlabs-postgresql
+	url = git@github.com:puppetlabs/puppetlabs-postgresql.git
