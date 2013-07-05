@@ -26,3 +26,9 @@ class { 'postgresql::server':
    },
 }
 
+postgresql::db { 'clojuredb':
+  user     => 'clojuser',
+  password => 'clojpass',
+}
+
+
