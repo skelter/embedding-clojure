@@ -7,7 +7,11 @@ Vagrant::Config.run do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "base"
+  #config.vm.box = "base"
+  # Suehs: I found pljava and postgresql-8.3/4 to be problematic in the usual lucid
+  # Suehs: Let's try Ubuntu Precise 12.04
+  # Suehs: http://dl.dropbox.com/u/1537815/precise64.box
+  config.vm.box = "precise64"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
