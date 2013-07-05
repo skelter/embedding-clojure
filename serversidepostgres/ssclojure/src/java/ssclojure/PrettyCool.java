@@ -4,6 +4,11 @@ import clojure.lang.RT;
 import clojure.lang.Var;
 import java.util.Collection;
 
+/**
+ * entry points into our jar.
+ * I bet we could improve upon it by moving the RT initilization into
+ * a static initializer.  Let's get it working in PostgreSQL first.
+ */
 public class PrettyCool {
     public static Collection<String> withTags(Collection<Object> collection) throws Exception {
 	RT.loadResourceScript("ssclojure/core.clj");
