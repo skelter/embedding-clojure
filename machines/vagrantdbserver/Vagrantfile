@@ -11,6 +11,7 @@ Vagrant::Config.run do |config|
   # Suehs: I found pljava and postgresql-8.3/4 to be problematic in the usual lucid
   # Suehs: Let's try Ubuntu Precise 12.04
   # Suehs: http://files.vagrantup.com/precise64.box
+  # Suehs: Looks like this gets us postgresql-9.1 and postgresql-9.1-pljava
   config.vm.box = "precise64"
 
   # The url from where the 'config.vm.box' box will be fetched if it
