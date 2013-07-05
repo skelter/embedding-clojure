@@ -4,7 +4,8 @@ Embedding Clojure in PostgreSQL
 This example needs the availability of a PostgreSQL server that we can upload
 jars to.  This can be done with PostgreSQL server on your dev machine, 
 or it is easy enough to spin up a cloud server or a Vagrant server. 
-See [machines](./machines) for some help on setting up a disposable PostgreSQL server.
+See [machines](./machines) for some help on setting up a disposable 
+PostgreSQL server.
 
 
 
