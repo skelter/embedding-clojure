@@ -1,6 +1,10 @@
 (ns ssclojure.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn withTags
+  "Returns tags wrapped collection"
+  [coll]
+  (doall (map #(str "<" (type %) ">" (str %) "</>") coll)))
+
+(defn hello ^String [x]
+  (str "Hello, " x))
+
