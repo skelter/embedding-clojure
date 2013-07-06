@@ -31,7 +31,8 @@ Your end-users can script your app in a language they might already know!
 
 Thank You!
 ----------
-Special thanks to the [Philip Frank](https://github.com/pmf/clojure-jsr223) together.
+Special thanks to [Philip Frank](https://github.com/pmf/clojure-jsr223)
+for putting clojure-jsr223 together.
 
 References and Links
 ----------------------
