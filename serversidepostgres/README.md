@@ -1,6 +1,21 @@
 Embedding Clojure in PostgreSQL
 ===============================
 
+Work In Progress
+----------------
+
+This example isn't quite working yet, but it's close :).
+
+```sql
+clojuredb=# CREATE FUNCTION hello(varchar) RETURNS varchar AS 'ssclojure.PrettyCool.hellos' LANGUAGE javaU;
+CREATE FUNCTION
+clojuredb=# select hello('whoop');
+ERROR:  java.lang.ExceptionInInitializerError
+clojuredb=# select hello('whoop');
+ERROR:  java.lang.NoClassDefFoundError: clojure.lang.RT
+clojuredb=#
+```
+
 This example needs a PostgreSQL server with PLJava that we can upload
 jars to.  This can be done with PostgreSQL server on your dev machine, 
 or it is easy enough to spin up a cloud server or a Vagrant server. 
