@@ -13,6 +13,10 @@ To run
 #. ./run
 
 
+Future
+--------
+We could improve this example by passing some collections back and forth.
+
 Broader Perspective
 --------------------
 June 6, 2013 
@@ -29,3 +33,5 @@ improvements in both Scala and Clojure's implementation;
 there are older conversations out on the web about some classloader
 problems.
 
+The web also had some grumbling about Scala collections not playing
+nice with Java and Clojure collections.
