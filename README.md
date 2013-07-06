@@ -33,10 +33,11 @@ others who posted to the internet for our collective benefit.
 
 Links & References
 -------------------
-* The hard way, the way I first did and works in osgi  
+* The hard way, my first try based on Java preconceptions.
+  Works in OSGi environment.  
   http://java.dzone.com/articles/java-clojure-interop-calling
 
-* This is the way the clojure team (Stu,...) suggest
+* This is the way the clojure team (Stu,...) suggest.
   * http://java.dzone.com/articles/java-clojure-interop
   * http://en.wikibooks.org/wiki/Clojure_Programming/Tutorials_and_Tips#Invoking_Clojure_from_Java
   
