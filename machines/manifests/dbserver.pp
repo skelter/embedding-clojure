@@ -1,4 +1,3 @@
-#include postgresql::server
 
 exec { 'apt-get update':
   command => '/usr/bin/apt-get update'
@@ -15,6 +14,12 @@ file { '/etc/motd':
                 Managed by Puppet.\n"
 }
 
+# Ugh.  Oracle's license agreement causes pain so hopefully openjdk will work
+class { 'java': 
+  distribution => 'jdk',
+
+}
+
 class { 'postgresql::server':
   config_hash => {
     'ip_mask_deny_postgres_user' => '0.0.0.0/32',
@@ -26,9 +31,23 @@ class { 'postgresql::server':
    },
 }
 
+# This may need tweaking for linux and postgresql distribution.
+# TODO: long-term robustness of pljava
+exec { 'apt-get pljava':
+  command => '/usr/bin/apt-get install postgresql-9.1-pljava'
+}
+
 postgresql::db { 'clojuredb':
   user     => 'clojuser',
   password => 'clojpass',
 }
 
+exec { 'install PL/java into clojuredb':
+    command => '/usr/bin/psql -d clojuredb -f /usr/share/postgresql-9.1-pljava/install.sql',
+    user => 'postgres',
+}
 
+#exec { 'permissions for PL/java for clojuser':
+#   command => '/usr/bin/psql -d clojuredb -c 'GRANT ALL ON java to clojuser'',
+#   user    => 'postgres',
+#}
