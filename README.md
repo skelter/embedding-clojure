@@ -22,6 +22,10 @@ Proposed Examples
 * Clojure streamed down the wire
 * Clojure in a PostgreSQL database (WIP)
 
+Contributors
+--------------
+* [Steve Suehs](http://github.com/skelter)
+
 Links & References
 -------------------
 * The hard way, the way I first did and works in osgi  
