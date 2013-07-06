@@ -23,10 +23,10 @@ June 6, 2013
 
 The Austin Clojure Meetup member that requested this example
 mentioned that their consultant ran into issues calling Clojure
-from Scala once upon a time.  
+from Scala once upon a time.
 It seems to work in this light-weight example,
 so maybe the issues have been fixed.  It may also be that we
-weren't doing enough kung fu to run into the problem.  
+weren't doing enough kung fu to run into the problem.
 
 During the prep for this example it looks like there's been some
 improvements in both Scala and Clojure's implementation;
