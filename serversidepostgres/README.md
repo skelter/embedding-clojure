@@ -17,5 +17,7 @@ Links
   http://www.slideshare.net/petereisentraut/postgresql-and-pljava
 * SQLJ/PLJAVA Tutorial
   http://www.adempiere.com/SQLJ_/_PLJAVA_Tutorial 
+* Installing PL/java by Bear Giles
+  http://www.javacodegeeks.com/2012/10/introduction-to-postgresql-pljava.html
 * puppetlabs postgresql 
   https://github.com/puppetlabs/puppetlabs-postgresql
