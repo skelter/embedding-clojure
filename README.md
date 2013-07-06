@@ -1,5 +1,5 @@
-Embedding Clojure
-==================
+Embedding Clojure In Your App
+=============================
 
 Sometime in the Fall of 2012 or Spring 2013 I volunteered to do a presentation on Embedding Clojure.
 Embedding Clojure in what?
