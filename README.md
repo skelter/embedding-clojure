@@ -26,6 +26,9 @@ Contributors
 --------------
 * [Steve Suehs](http://github.com/skelter)
 
+Additionally, the information here is compiled from the sweat and tears of
+others who posted to the internet for our collective benefit.
+
 Links & References
 -------------------
 * The hard way, the way I first did and works in osgi  
