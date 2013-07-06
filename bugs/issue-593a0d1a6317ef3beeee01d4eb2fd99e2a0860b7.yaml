@@ -7,7 +7,7 @@ type: :task
 component: embedding-clojure
 release: 
 reporter: CS Suehs <skelter@skelter.net>
-status: :unstarted
+status: :in_progress
 disposition: 
 creation_time: 2013-06-30 12:49:33.548916 Z
 references: []
@@ -18,3 +18,7 @@ log_events:
   - CS Suehs <skelter@skelter.net>
   - created
   - ""
+- - 2013-07-06 16:31:52.391887 Z
+  - CS Suehs <skelter@skelter.net>
+  - changed status from unstarted to in_progress
+  - Let's demo imbedding a Clojure repl
