@@ -26,4 +26,8 @@ public class PrettyCool {
     public static void main(String[] args) throws Exception {
 	System.out.println(hello("world"));
     }
+
+    public static String hellos(String s) throws Exception {
+	return hello(s);
+    }
 }
