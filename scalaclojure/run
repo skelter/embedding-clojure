@@ -1,0 +1,8 @@
+#!/bin/sh
+
+CLOJUREJAR=$HOME/.m2/repository/org/clojure/clojure/1.5.1/clojure-1.5.1.jar
+SCALAJAR=$HOME/.m2/repository/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar
+OURJAR=target/scalaclojure-1.0-SNAPSHOT.jar
+
+java -cp $CLOJUREJAR:$SCALAJAR:$OURJAR org.austinclojuremeetup.scalaclojure.App "$@"
+
