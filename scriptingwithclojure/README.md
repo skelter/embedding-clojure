@@ -20,6 +20,15 @@ See `App.java`,`run` and the `example.*` scripts.
 2. ./run example.js
 3. ./run example.clj
 
+Why JSR-223 Scripting?
+----------------------
+
+If you just want to run Clojure files at run time, there are much easier
+ways to do it than using `ScriptEngineManager`.  The advantage of writing to
+the script engine framework of JSR-223 is that you can support multiple
+scripting languages: javascript, groovy, bean shell, clojure, ruby, AppleScript.
+Your end-users can script your app in a language they might already know!
+
 Thank You!
 ----------
 Special thanks to the [Philip Frank](https://github.com/pmf/clojure-jsr223) together.
