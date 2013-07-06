@@ -9,8 +9,8 @@ See App.scala.
 
 To run
 
-#. mvn package
-#. ./run
+1. mvn package
+2. ./run
 
 
 Future
