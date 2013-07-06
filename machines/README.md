@@ -13,6 +13,7 @@ PostgreSQL server on your machine
 #. cd to the example directory and use puppet to install the postgresql modules
 
    $ puppet module install puppetlabs-postgresql --modulepath modules
+   $ puppet module install puppetlabs-java       --modulepath modules
 
 #. cd to the vagrantdbserver
 #. vagrant up
