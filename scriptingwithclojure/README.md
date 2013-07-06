@@ -9,14 +9,17 @@ through the framework, associating the clj extension with Clojure.
 
 The utility of scripting depends on binding useful variables to the engine.
 This makes your apps objects readily available to user-written scripts.
+In our example, we bind `namesList` and use it in two different scripts.
 
 Most JDK's ship with a javascript language. 
 We've included some clojure and javascript script files.
 
-See `App.java` and `run`.
+See `App.java`,`run` and the `example.*` scripts.
 
 1. mvn package
-2. ./run
+2. ./run example.js
+3. ./run example.clj
+
 
 References and Links
 ----------------------
