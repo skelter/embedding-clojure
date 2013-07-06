@@ -8,7 +8,7 @@ Our client code will then demonstrate running a .clj script file
 through the framework, associating the clj extension with Clojure.
 
 The utility of scripting depends on binding useful variables to the engine.
-This makes your apps objects readily available to user-written scripts.
+This makes your app's objects readily available to user-written scripts.
 In our example, we bind `namesList` and use it in two different scripts.
 
 Most JDK's ship with a javascript language. 
