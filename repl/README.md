@@ -25,6 +25,17 @@ Running the Example
 1. mvn package
 2. run
 
+```
+Clojure 1.5.1
+user=> namesList
+["Stephanie" "Samantha" "Normella"]
+user=> (count namesList)
+3
+user=> (map count namesList)
+(9 8 8)
+user=> ^D
+```
+
 References and Links
 --------------------
 
