@@ -19,7 +19,7 @@ Planned Examples
 * Clojure REPL
 * Clojure streamed down the wire
 * Scala calling Clojure
-* Clojure in a PostgreSQL database
+* Clojure in a PostgreSQL database (WIP)
 
 Links & References
 -------------------
