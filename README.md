@@ -10,15 +10,16 @@ so I better get the examples ready to go.
 Contents
 ------------
 * [Calling Clojure as suggested](./javaclojureeasy)
-* [Using Clojure to make a library jar for use in Java](./clojurejarforusebyjava)
+* [Using Clojure to make a library jar for use in Java](./clojurejarforusebyjava) the hard way
 * [Clojure as a JSR-233 scripting language](./scriptingwithclojure)
+* [Scala calling Clojure](./scalaclojure)
 
-Planned Examples
+
+Proposed Examples
 -----------------
 * Clojure-Powered annotations
 * Clojure REPL
 * Clojure streamed down the wire
-* Scala calling Clojure
 * Clojure in a PostgreSQL database (WIP)
 
 Links & References
