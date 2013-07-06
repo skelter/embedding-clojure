@@ -1,0 +1,5 @@
+#!/bin/sh
+CLOJUREJAR=$HOME/.m2/repository/org/clojure/clojure/1.5.1/clojure-1.5.1.jar
+TARGETJAR=target/repl-1.0-SNAPSHOT.jar
+
+java -cp $CLOJUREJAR:$TARGETJAR org.austinclojuremeetup.repldemo.App "$@"

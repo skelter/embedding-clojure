@@ -1,13 +1,15 @@
 package org.austinclojuremeetup.repldemo;
 
+import clojure.main;
+
 /**
- * Hello world!
+ * Let's repl!
  *
  */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        main.main(args);
     }
 }
