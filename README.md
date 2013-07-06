@@ -13,7 +13,7 @@ Contents
 * [Using Clojure to make a library jar for use in Java](./clojurejarforusebyjava) the hard way
 * [Clojure as a JSR-223 scripting language](./scriptingwithclojure)
 * [Scala calling Clojure](./scalaclojure)
-* [Clojure REPL](.repl)
+* [Embedding a Clojure REPL](.repl)
 
 
 Proposed Examples
