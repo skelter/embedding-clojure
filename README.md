@@ -20,7 +20,9 @@ Proposed Examples
 -----------------
 * Clojure-Powered annotations
 * Clojure streamed down the wire
-* Clojure in a PostgreSQL database (WIP)
+* Clojure in a PostgreSQL database ([WIP](./serversidepostgres))
+* Clojure on a raspberryPi
+* Clojure compiled down to LLVM on a device
 
 Contributors
 --------------
