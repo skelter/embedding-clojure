@@ -36,6 +36,13 @@ user=> (map count namesList)
 user=> ^D
 ```
 
+Improvements
+---------------
+
+If this were something I was going to ship to someone else or use a lot,
+I would want richer interaction, like recall.
+
+
 References and Links
 --------------------
 
