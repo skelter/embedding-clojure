@@ -5,8 +5,8 @@ type: :task
 component: embedding-clojure
 release: 
 reporter: CS Suehs <skelter@skelter.net>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2013-06-30 15:35:21.263215 Z
 references: []
 
@@ -18,3 +18,7 @@ log_events:
   - |-
     The man who requested this one said that their consultant ran into
     problems with Scala's classloader intefering with Clojure.
+- - 2013-07-06 15:29:47.263287 Z
+  - CS Suehs <skelter@skelter.net>
+  - closed with disposition fixed
+  - It seems to be working!
