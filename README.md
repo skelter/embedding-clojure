@@ -2,7 +2,7 @@ Embedding Clojure
 ==================
 
 Sometime in the Fall of 2012 or Spring 2013 I volunteered to do a presentation on Embedding Clojure.
-Embedding Clojure in what?  
+Embedding Clojure in what?
 "Well all kinds of things...let's see what we can do."
 It looks like we'll be doing this on July 8, 2013 at the Austin Clojure Meetup,
 so I better get the examples ready to go.
