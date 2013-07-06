@@ -20,6 +20,9 @@ See `App.java`,`run` and the `example.*` scripts.
 2. ./run example.js
 3. ./run example.clj
 
+Thank You!
+----------
+Special thanks to the [Philip Frank](https://github.com/pmf/clojure-jsr223) together.
 
 References and Links
 ----------------------
