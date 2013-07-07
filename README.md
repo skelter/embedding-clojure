@@ -22,7 +22,7 @@ Proposed Examples
 * Clojure streamed down the wire
 * Clojure in a PostgreSQL database ([WIP](./serversidepostgres))
 * Clojure on a raspberryPi
-* Clojure compiled down to LLVM on a device
+* Clojure compiled down to LLVM on a device?
 
 Contributors
 --------------
@@ -47,4 +47,10 @@ Links & References
 * Calling Clojure from Scala
   http://stackoverflow.com/questions/2181774/calling-clojure-from-java
   
-
+* Compiling Clojure to other things
+  * Nathan Sorenson
+    * ClojureWest talk slides
+	  https://github.com/strangeloop/clojurewest2013/blob/master/slides/sessions/Sorenson-Clojure-to-Native-via-Scheme.pdf
+	* Nathan on Github https://github.com/takeoutweight
+	* Clojure to scheme https://github.com/takeoutweight
+  * ClojureScript
