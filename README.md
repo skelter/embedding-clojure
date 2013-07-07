@@ -9,10 +9,10 @@ so I better get the examples ready to go.
 
 Contents
 ------------
-* [Calling Clojure as suggested](./javaclojureeasy)
+* [Call Clojure from Java](./javaclojureeasy) the recommended way
 * [Using Clojure to make a library jar for use in Java](./clojurejarforusebyjava) the hard way
 * [Clojure as a JSR-223 scripting language](./scriptingwithclojure)
-* [Scala calling Clojure](./scalaclojure)
+* [Call Clojure from Scala ](./scalaclojure)
 * [Embedding a Clojure REPL](./repl)
 
 
