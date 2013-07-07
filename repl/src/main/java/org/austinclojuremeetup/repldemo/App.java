@@ -16,6 +16,7 @@ public class App
 	RT.var("user","namesList",buildNamesList());
         main.main(givenargs);
 	System.out.println("Have a great day!");
+	System.out.flush();
     }
 
     public static Collection<String> buildNamesList() {
