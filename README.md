@@ -54,3 +54,5 @@ Links & References
 	* Nathan on Github https://github.com/takeoutweight
 	* Clojure to scheme https://github.com/takeoutweight
   * ClojureScript
+
+* [Experimental Lisp on an arduino](https://github.com/jondistad/uberlisp)
